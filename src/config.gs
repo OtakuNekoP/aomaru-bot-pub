@@ -13,3 +13,9 @@ var logSheetName = "";
 
 var setuApiKey = '';
 var r18 = '2';
+
+
+// Rebrandly config
+var rebrandlyApiKey = "";
+var rebrandlyWorkspaceId = "";
+var rebrandlyFullName = "";

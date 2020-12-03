@@ -32,6 +32,8 @@ function doPost(e) {
     bus.on(/\/setu@aomaru_bot\s*([\u4e00-\u9fa5A-Za-z0-9_]+)?/, setu);
 
     bus.on(/\/setu\s*([\u4e00-\u9fa5A-Za-z0-9_]+)?/, setu);
+
+    bus.on(/\/short\s([a-z]+\:\/+[^\s]*)/, urlShortener);
     
     // Register the command bus
     bot.register(bus);
